@@ -23,4 +23,7 @@ public class Person { // User on hõivatud PostgreSQL tasandil
     private String password;
     @Column(unique = true)
     private String personalCode;
+
+    @OneToOne(cascade = CascadeType.ALL)
+    private Address address;
 }

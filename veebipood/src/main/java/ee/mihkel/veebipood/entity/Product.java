@@ -20,6 +20,9 @@ public class Product {
     private double price;
     private boolean active;
     private int stock;
+
+    @ManyToOne
+    private Category category;
     // Panen andmebaasi, aga ei määra seda väärtust:
     // double -> 0
     // boolean -> false

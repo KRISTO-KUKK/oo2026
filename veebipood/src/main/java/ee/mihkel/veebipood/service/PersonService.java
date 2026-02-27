@@ -1,5 +1,6 @@
 package ee.mihkel.veebipood.service;
 
+import com.github.vladislavgoltjajev.personalcode.locale.estonia.EstonianPersonalCodeValidator;
 import ee.mihkel.veebipood.entity.Person;
 import org.springframework.stereotype.Service;
 
@@ -10,6 +11,8 @@ import java.util.regex.Pattern;
 public class PersonService {
     private final String regex = "^[a-zA-Z0-9_!#$%&'*+/=?`{|}~^-]+(?:\\.[a-zA-Z0-9_!#$%&'*+/=?`{|}~^-]+)*@[a-zA-Z0-9-]+(?:\\.[a-zA-Z0-9-]+)*$";
     private final Pattern pattern = Pattern.compile(regex);
+    private final EstonianPersonalCodeValidator validator = new EstonianPersonalCodeValidator();
+
 
     public boolean isValid(String email) {
         Matcher matcher = pattern.matcher(email);
@@ -28,6 +31,9 @@ public class PersonService {
         }
         if (!isValid(person.getEmail())) {
             throw new RuntimeException("Invalid email");
+        }
+        if (!validator.isValid(person.getPersonalCode())){
+            throw new RuntimeException("Invalid personal code");
         }
     }
 }
