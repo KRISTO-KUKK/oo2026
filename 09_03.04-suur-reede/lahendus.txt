@@ -1,0 +1,6 @@
+Õpetajale:
+
+Lahendus on selles kaustas:
+klassikomplekt
+
+Arendasin kümnevõistluse rakendust edasi. Lisatud on sportlaste haldus, tulemuste lisamine, kümnevõistluse punktide arvutamine ja lihtne front-end.

@@ -1,0 +1,7 @@
+Õpetajale:
+
+Lahendus on selles kaustas kahes projektis:
+klassikomplekt
+veebipood
+
+Mõlemas projektis on Dockerfile olemas. Veebipoel on lisaks dev ja prod seaded, et lokaalselt ja deploys erinevaid andmebaasi seadeid kasutada.

@@ -1,0 +1,6 @@
+Õpetajale:
+
+Lahendus on selles kaustas:
+klassikomplekt
+
+Projekt on edasi arendatud kümnevõistluse rakenduseks. Seal saab sportlasi lisada, tulemusi lisada ja punkte arvutada.

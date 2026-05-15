@@ -1,0 +1,9 @@
+Õpetajale:
+
+Lahendus on selles kaustas:
+veebipood
+oo2026-frontend
+
+Kontrolltöö jaoks parandasin veebipoe projekti. Töötab toodete kuvamine, pagineerimine, kategooriafilter, admini toodete haldus ja front-endiga ühendus.
+
+Backendil on olemas dev, prod ja test seaded.

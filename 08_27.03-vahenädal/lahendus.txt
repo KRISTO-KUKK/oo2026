@@ -1,0 +1,8 @@
+Õpetajale:
+
+Lahendus on selles kaustas:
+alampuud
+
+Näites on liides CompetitionMember, abstraktsed klassid Person, Athlete ja Official ning nende all Runner, Jumper, Judge ja Timekeeper.
+
+Programm prindib iga objekti kohta erineva tutvustuse.

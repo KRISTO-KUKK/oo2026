@@ -1,0 +1,11 @@
+Õpetajale:
+
+Lahendus on selles kaustas:
+klassikomplekt
+
+Front-endi failid on projekti sees:
+src/main/resources/static/index.html
+src/main/resources/static/styles.css
+src/main/resources/static/app.js
+
+Lehel saab sportlasi vaadata ja lisada, tulemusi lisada ning sportlasi riigi järgi filtreerida, sorteerida ja lehekülgede kaupa vaadata.

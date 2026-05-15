@@ -1,0 +1,9 @@
+Õpetajale:
+
+Lahendus on selles kaustas:
+klassikomplekt
+
+Projektis saab sportlasi lehekülgede kaupa küsida, riigi järgi filtreerida ning nime, riigi või punktide järgi sorteerida.
+
+Näide:
+GET /athletes?page=0&size=10&country=EST&sortBy=totalPoints&direction=desc

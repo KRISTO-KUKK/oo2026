@@ -1,0 +1,23 @@
+Õpetajale:
+
+Lahendus on selles kaustas:
+veebipood
+oo2026-frontend
+
+Backendis lisasin raamatute osa:
+GET /books?page=0&size=5
+POST /books
+POST /books/batch
+GET /bibles
+
+Raamatuid saab lisada ühekaupa ja listina. Raamatuid saab vaadata lehekülgede kaupa.
+
+Dev profiilis kasutab backend H2 andmebaasi ja lisab käivitamisel mõned raamatud. Prod profiilis tulevad andmebaasi seaded keskkonnamuutujatest.
+
+Frontendis on lisatud lehed:
+/books
+/bibles
+
+/bibles leht ei küsi andmeid otse välisest API-st, vaid küsib need backendi /bibles endpointi kaudu.
+
+Frontendile tegin .env.dev ja .env.prod failid ning käivitasin npm install, et node_modules kaust oleks olemas.

@@ -1,0 +1,10 @@
+Õpetajale:
+
+Lahendus on selles kaustas:
+klassikomplekt
+
+Lisatud on väliste andmete endpoint'id:
+GET /external/judges
+GET /external/locations
+
+Kui MockAPI aadressid on application.properties failis tühjad, annab rakendus näidisandmed tagasi, et päringuid saaks kohe proovida.

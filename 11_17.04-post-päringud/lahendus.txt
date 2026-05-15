@@ -1,0 +1,10 @@
+Õpetajale:
+
+Lahendus on selles kaustas:
+klassikomplekt
+
+Front-endist ja Postmanist saab lisada sportlase ning lisada sportlasele tulemuse.
+
+Kasutatud endpoint'id:
+POST /athletes
+POST /athletes/{id}/results

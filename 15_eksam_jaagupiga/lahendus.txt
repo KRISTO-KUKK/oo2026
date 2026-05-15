@@ -1,0 +1,9 @@
+Õpetajale:
+
+Lahendus on selles kaustas:
+klassikomplekt
+alampuud
+
+Põhiosaks on kümnevõistluse projekt. Seal on objektid Athlete, Result ja SportEvent. SportEvent arvutab punktid, AthleteService tegeleb tulemuste, filtrite, sorteerimise ja pagineerimisega ning AthleteController teeb selle REST API kaudu kättesaadavaks.
+
+Lisaks on alampuud kaustas väiksem OOP näide abstraktsete klasside ja liidesega.

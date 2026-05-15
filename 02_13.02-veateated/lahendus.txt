@@ -1,0 +1,6 @@
+Õpetajale:
+
+Lahendus on selles kaustas:
+veateated
+
+Projektis on Spring Booti rakendus, kus saab veateateid ja päringute vastuseid katsetada.

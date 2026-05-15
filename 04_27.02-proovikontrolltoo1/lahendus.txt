@@ -1,0 +1,6 @@
+Õpetajale:
+
+Lahendus on selles kaustas:
+proovitoo
+
+See on proovikontrolltöö Spring Booti projekt. Kontrollisin, et projekt käivitub ja testid lähevad läbi.

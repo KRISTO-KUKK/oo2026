@@ -1,0 +1,6 @@
+Õpetajale:
+
+Lahendus on selles kaustas:
+filmileht/filmileht
+
+Tegin Spring Booti filmilehe projekti. Seal on filmi andmemudel ja andmebaasiga ühendatud rakendus.
